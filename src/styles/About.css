@@ -1,0 +1,152 @@
+.about_page{
+    overflow-x: hidden;
+}
+
+.welcome_text{
+    font-family: var(--second-font);
+}
+.author{
+    font-family: var(--main-font);
+}
+.history_text p{
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+@media only screen and (min-width:768px){
+.history_text p{
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+}
+
+.dailyDecree{
+    font-family: var(--main-font);
+}
+.wonder , .power{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    
+}
+
+.about_values{
+    font-family: var(--main-font);
+}
+.values_desc{
+    font-family: var(--second-font);
+}
+/* .about_values {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+    padding: 2rem 1rem;
+} */
+
+
+/* .values_card {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8rem;
+    background-color: #f3f3f3;
+    box-shadow: 0px 0px 5px 0px #93939331;
+} */
+
+/* .values_icon {
+    background-color: #fff;
+    font-size: 5rem;
+    border-radius: 50%;
+    padding: .6rem;
+    color: var(--secondary-color);
+} */
+
+/* .values_heading {
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+} */
+
+/* .values_desc {
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 0.95rem;
+    padding: 1rem 0;
+} */
+
+.cardDivide {
+    background-color: var(--second-color);
+    height: 3px;
+    border-radius: 3rem;
+    border: none;
+    width: 40px;
+
+}
+
+@media only screen and (min-width: 480px) {
+    /* .about_values {
+        padding: 2rem;
+    } */
+}
+
+@media only screen and (min-width: 600px) {
+    /* .about_values {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.8rem;
+    } */
+}
+
+@media only screen and (min-width:768px) {
+    /* .about_values {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+
+    /* .values_heading {
+        font-size: 1.5rem;
+    }
+
+    .values_desc {
+        font-size: .95rem;
+    }
+
+    .values_card {
+        padding: 2rem;
+    } */
+}
+
+@media only screen and (min-width:900px) {
+    /* .about_values {
+        padding: 0 4rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    } */
+
+    /* .values_card {
+        padding: 4rem 2rem;
+    } */
+}
+
+.expect_list{
+    list-style: none;
+        margin-left: 0;
+        padding-left: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+}
+.expect_list li {
+    /* padding-left: 1em; */
+    text-indent: -1em;
+  
+}
+
+.expect_list li:before {
+    content: "✓";
+    padding-right: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: var(--main-color);
+}
+

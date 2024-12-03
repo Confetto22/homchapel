@@ -1,0 +1,27 @@
+.footerLinks{
+    list-style: none;
+        margin-left: 0;
+        padding-left: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+}
+.footerLinks li{
+    /* padding-left: 1em; */
+        text-indent: -1em;
+        font-size: 1rem;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .footerLinks  li:before {
+        content: "✓";
+        padding-right: 5px;
+        font-weight: bolder;
+        font-size: 1rem;
+        color: var(--second-color);
+    }
+    .footerLinks a:hover{
+        color: var(--main-color);
+        transition: .2s ease-in-out;
+    }

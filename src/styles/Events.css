@@ -1,0 +1,29 @@
+.events_page{
+    font-family: var(--second-font);
+}
+.upcomingEvt_heading, .prelude_date {
+    font-family: var(--main-font);
+    letter-spacing: 1px;
+}
+
+.mini_box{
+    position: absolute;
+    bottom: 0;
+}
+.mini_box .miniValueBox{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mini_box .miniValueBox p, .mini_box  span{
+    font-weight: 500;
+    font-family: var(--main-font);
+    color: white;
+
+}
+.eventName{
+    font-family: var(--main-font);
+    letter-spacing: 1px;
+}
