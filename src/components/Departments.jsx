@@ -41,26 +41,26 @@ const departmentList = [
       "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725301558/homchapel/IMG-20240902-WA0089_x7llod.webp",
     ],
   },
-  {
-    name: "Custodians",
-    description:
-      "The unsung heroes who ensure our church is a sanctuary of cleanliness and order. With diligence and care, they maintain the sacred space where our congregation gathers to worship...Our custodians are responsible for the cleanliness and general hygiene of the church premises. They are thus responsible for the following: Church cleaning, Assist with ministration covering, Offering cards and others",
-    gallery: [
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725299468/homchapel/HOM11_lx0prg.jpg",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725299468/homchapel/HOM12_jvt8wb.jpg",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265235/homchapel/daddy-bg_kaivmk.jpg",
-    ],
-  },
-  {
-    name: "Media",
-    description:
-      "Enter the dynamic world of our media team, where creativity meets technology to capture and share the essence of our church community. From stunning visuals to engaging content, they bring the spirit of our services to life online and beyond. Join us in celebrating the talent and dedication of our media team as they illuminate our faith journey through the power of digital storytelling...Among other things, the media team has the responsibility to ensure that HOM Chapel's messages reach a broader audience beyond our doors and our regular service times. They are responsible for creating, curating, and distributing content across various media platforms (social media, podcasts, live streams, websites, etc.)... some of their duties include Videography, Video editing, Live streaming, Projection, Photography and a lot more",
-    gallery: [
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265023/homchapel/media-bg_zxnco5.jpg",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265276/homchapel/daddy-bg2_hmtcqk.jpg",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265235/homchapel/daddy-bg_kaivmk.jpg",
-    ],
-  },
+  // {
+  //   name: "Custodians",
+  //   description:
+  //     "The unsung heroes who ensure our church is a sanctuary of cleanliness and order. With diligence and care, they maintain the sacred space where our congregation gathers to worship...Our custodians are responsible for the cleanliness and general hygiene of the church premises. They are thus responsible for the following: Church cleaning, Assist with ministration covering, Offering cards and others",
+  //   gallery: [
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725299468/homchapel/HOM11_lx0prg.jpg",
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725299468/homchapel/HOM12_jvt8wb.jpg",
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265235/homchapel/daddy-bg_kaivmk.jpg",
+  //   ],
+  // },
+  // {
+  //   name: "Media",
+  //   description:
+  //     "Enter the dynamic world of our media team, where creativity meets technology to capture and share the essence of our church community. From stunning visuals to engaging content, they bring the spirit of our services to life online and beyond. Join us in celebrating the talent and dedication of our media team as they illuminate our faith journey through the power of digital storytelling...Among other things, the media team has the responsibility to ensure that HOM Chapel's messages reach a broader audience beyond our doors and our regular service times. They are responsible for creating, curating, and distributing content across various media platforms (social media, podcasts, live streams, websites, etc.)... some of their duties include Videography, Video editing, Live streaming, Projection, Photography and a lot more",
+  //   gallery: [
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265023/homchapel/media-bg_zxnco5.jpg",
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265276/homchapel/daddy-bg2_hmtcqk.jpg",
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265235/homchapel/daddy-bg_kaivmk.jpg",
+  //   ],
+  // },
   {
     name: "Choir",
     description:
@@ -87,7 +87,7 @@ const Departments = () => {
         subStyle={"text-[1.8rem] md:text-[2.2rem] text-center"}
       />
       <div className="all_depts flex flex-col  gap-3 max-w-[500px] md:max-w-full mx-auto">
-        <div className="filterBtns grid grid-cols-3 md:grid-cols-6 gap-2 mt-4">
+        <div className="filterBtns grid grid-cols-2 md:grid-cols-4 gap-2 mt-4 ">
           {departmentList.map((singleDept) => (
             <button
               key={singleDept.name}

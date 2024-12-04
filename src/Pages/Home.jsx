@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 // import Departments from "../components/Departments";
 import SermonVid from "../components/SermonVid";
-// import Departments from "../components/Departments";
+import Departments from "../components/Departments";
 
 const Home = () => {
   return (
@@ -30,7 +30,7 @@ const Home = () => {
       <SermonVid />
 
       <UpcomingEvt />
-      {/* <Departments /> */}
+      <Departments />
 
       <div className="planVisit_banner min-h-[30vh] bg-[var(--main-color)] flex flex-col md:flex-row md:items-center md:justify-between  justify-center gap-4 p-6 md:px-12 items-start">
         <p className="text-white font-semibold text-[1.4rem] md:text-[2rem] md:max-w-[70%] capitalize">
