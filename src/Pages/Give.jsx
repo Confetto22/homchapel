@@ -10,7 +10,6 @@ const Give = () => {
   giveType === "ussd"
     ? (document.body.style.overflow = "hidden")
     : (document.body.style.overflow = "auto");
-  // HOM Chapel is filled with citizens with a heart for the church.
   return (
     <section className="give_page">
       <PageHead
