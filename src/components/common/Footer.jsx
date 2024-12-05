@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { LiaTelegram } from "react-icons/lia";
-import { FaInstagram } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
 
 import "../../styles/Footer.css";
 import Form from "./Form";
@@ -141,7 +141,7 @@ const Footer = () => {
                   to={social.ref}
                   target="_blank"
                   key={social.refName}
-                  className="bg-transparent border border-[#a3a2a2] rounded-full text-white flex items-center justify-center hover:text-[var(--second-color)]  ease-in-out duration-200 w-[40px] h-[40px] flex items-center justify-center"
+                  className="bg-transparent border border-[#a3a2a2] rounded-full text-white flex items-center justify-center hover:text-[var(--second-color)]  ease-in-out duration-200 w-[40px] h-[40px]"
                   aria-label={`${social.refName} link`}
                 >
                   {social.icon}

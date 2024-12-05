@@ -13,6 +13,7 @@ import { motion } from "framer-motion";
 // import Departments from "../components/Departments";
 import SermonVid from "../components/SermonVid";
 import Departments from "../components/Departments";
+import Sermons from "../components/Sermons";
 
 const Home = () => {
   return (
@@ -180,6 +181,8 @@ const Home = () => {
 
       <GetConnected />
       <TestimonialList />
+
+      <Sermons />
 
       <section className="prayer_request bg-[url('https://img.freepik.com/free-photo/woman-praying-her-loved-ones_23-2148869278.jpg?t=st=1724973124~exp=1724976724~hmac=f63d9d6e4e3a7a91a266aa71453f0b82a1b9ecdb97743d03adef4c11dec2961a&w=740')] bg-center bg-cover min-h-[50vh]">
         <div className="prayer_cover bg-[#0000008f] h-full w-full min-h-[50vh] p-8 flex flex-col items-end justify-center text-white gap-5 text-right md:pr-20">
