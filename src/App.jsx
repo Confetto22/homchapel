@@ -19,6 +19,7 @@ import PrayerWall from "./Pages/PrayerWall";
 import OnlineGive from "./Pages/OnlineGive";
 // import Give from "./Pages/Give";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const Wrapper = ({ children }) => {
   const location = useLocation();
@@ -56,6 +57,7 @@ function App() {
       <div className="page_cover dark:bg-[#000000de] bg-[#ebe7e72a] w-full h-full">
         <Wrapper>
           <Analytics />
+          <SpeedInsights />
           <Navbar />
 
           <div
