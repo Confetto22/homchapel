@@ -18,6 +18,7 @@ import Give from "./Pages/Give";
 import PrayerWall from "./Pages/PrayerWall";
 import OnlineGive from "./Pages/OnlineGive";
 // import Give from "./Pages/Give";
+import { Analytics } from "@vercel/analytics/react";
 
 const Wrapper = ({ children }) => {
   const location = useLocation();
@@ -54,6 +55,7 @@ function App() {
     <section className="bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1729595283/homchapel/rb_119211_excoa6.png')]  bg-contain bg-center bg-repeat ease-in-out duration-300 dark:bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1729597210/homchapel/hand-drawn-minimalist-background_znfifr.png')]">
       <div className="page_cover dark:bg-[#000000de] bg-[#ebe7e72a] w-full h-full">
         <Wrapper>
+          <Analytics />
           <Navbar />
 
           <div

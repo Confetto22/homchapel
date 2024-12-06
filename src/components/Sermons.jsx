@@ -43,13 +43,13 @@ const Sermons = () => {
           mainheading={
             " Listen to powerful teachings from our MAN FROM GOD, Dr. Cloudio on topics such as Spiritual Living, Purpose, Healing and Health, The Holy Spirit, Prayer, Soul Winning and More..."
           }
-          subStyle={"text-[2.3rem] md:text-[2.8rem] font-bold"}
+          subStyle={"text-[2.3rem] md:text-[2.8rem] font-bold leading-9"}
           mainStyle={
             "text-[1rem] text-[#1a1a1a] md:text-[1rem] max-w-[760px] dark:text-[#fff]"
           }
         />
 
-        <div className="allSermons grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="allSermons grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 md:gap-4">
           {allSermons.map((sermon) => (
             <iframe
               key={sermon.title}
