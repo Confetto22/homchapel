@@ -11,17 +11,17 @@ const allSermons = [
     ref: "https://www.podbean.com/player-v2/?i=zemrw-175f755-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1b1b1b&font-color=ffffff&logo_link=episode_page&btn-skin=3ab278",
   },
   {
-    title: "Attitude - Part 1",
-    ref: "https://www.podbean.com/player-v2/?i=9yc9m-175f639-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1b1b1b&font-color=ffffff&logo_link=episode_page&btn-skin=3ab278",
+    title: "SELF DELIVERNCE",
+    ref: "https://www.podbean.com/player-v2/?i=nvmj3-1763409-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1b1b1b&font-color=ffffff&logo_link=episode_page&btn-skin=3ab278",
   },
   {
-    title: "Divine Impartation",
-    ref: "https://www.podbean.com/player-v2/?i=zemrw-175f755-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1b1b1b&font-color=ffffff&logo_link=episode_page&btn-skin=3ab278",
+    title: "DIFFICULT BUT NOT IMPOSSIBLE",
+    ref: "https://www.podbean.com/player-v2/?i=5wij7-1763408-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1b1b1b&font-color=ffffff&logo_link=episode_page&btn-skin=3ab278",
   },
-  //   {
-  //     title: "ATTITUDE - PART 1",
-  //     ref: "https://www.podbean.com/player-v2/?i=9yc9m-175f639-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1b1b1b&font-color=ffffff&logo_link=episode_page&btn-skin=3ab278",
-  //   },
+  // {
+  //   title: "ATTITUDE - PART 1",
+  //   ref: "https://www.podbean.com/player-v2/?i=9yc9m-175f639-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1b1b1b&font-color=ffffff&logo_link=episode_page&btn-skin=3ab278",
+  // },
 ];
 
 const Sermons = () => {
