@@ -7,7 +7,7 @@ export const allEvts = [
     month: "december",
     year: "2024",
     flyer:
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1727649740/homchapel/endInglory_ipkit4.jpg",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1734537148/homchapel/31st_night_feyf9g.jpg",
     brief:
       "Another 31st Warnight is here again. Join us embark on this powerful program as we war ahead of the new year & experience the glory of God.",
   },
