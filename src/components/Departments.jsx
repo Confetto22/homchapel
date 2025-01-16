@@ -26,21 +26,21 @@ const departmentList = [
     gallery: [
       "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725300942/homchapel/IMG-20240902-WA0096_wyzz6e.webp",
       "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725408942/homchapel/IMG-20240904-WA0022_pzlna7.webp",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725301248/homchapel/IMG_8106_jedx3j.webp",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725300942/homchapel/IMG-20240902-WA0095_rfe134.webp",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054653/homchapel/DSC_0449_yuqysx.webp",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054648/homchapel/DSC_0327_l8gudd.webp",
     ],
   },
-  {
-    name: "Pastors & Stewards",
-    description:
-      "Step into the realm of our stewards team, the dedicated caretakers of our church's well-being. With their unwavering commitment and diligence, they ensure that our church functions smoothly with harmony and order, they also make sure our church remains a welcoming sanctuary for all",
-    gallery: [
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1719493786/homchapel/567A9788_caxc6r_clahjc.webp",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725301558/homchapel/IMG-20240825-WA0065_zp7cmk.webp",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725301559/homchapel/IMG-20240827-WA0027_wi6a4z.webp",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725301558/homchapel/IMG-20240902-WA0089_x7llod.webp",
-    ],
-  },
+  // {
+  //   name: "Pastors & Stewards",
+  //   description:
+  //     "Step into the realm of our stewards team, the dedicated caretakers of our church's well-being. With their unwavering commitment and diligence, they ensure that our church functions smoothly with harmony and order, they also make sure our church remains a welcoming sanctuary for all",
+  //   gallery: [
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1719493786/homchapel/567A9788_caxc6r_clahjc.webp",
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725301558/homchapel/IMG-20240825-WA0065_zp7cmk.webp",
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725301559/homchapel/IMG-20240827-WA0027_wi6a4z.webp",
+  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1725301558/homchapel/IMG-20240902-WA0089_x7llod.webp",
+  //   ],
+  // },
   // {
   //   name: "Custodians",
   //   description:
@@ -51,16 +51,17 @@ const departmentList = [
   //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265235/homchapel/daddy-bg_kaivmk.jpg",
   //   ],
   // },
-  // {
-  //   name: "Media",
-  //   description:
-  //     "Enter the dynamic world of our media team, where creativity meets technology to capture and share the essence of our church community. From stunning visuals to engaging content, they bring the spirit of our services to life online and beyond. Join us in celebrating the talent and dedication of our media team as they illuminate our faith journey through the power of digital storytelling...Among other things, the media team has the responsibility to ensure that HOM Chapel's messages reach a broader audience beyond our doors and our regular service times. They are responsible for creating, curating, and distributing content across various media platforms (social media, podcasts, live streams, websites, etc.)... some of their duties include Videography, Video editing, Live streaming, Projection, Photography and a lot more",
-  //   gallery: [
-  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265023/homchapel/media-bg_zxnco5.jpg",
-  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265276/homchapel/daddy-bg2_hmtcqk.jpg",
-  //     "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265235/homchapel/daddy-bg_kaivmk.jpg",
-  //   ],
-  // },
+  {
+    name: "Media",
+    description:
+      "Enter the dynamic world of our media team, where creativity meets technology to capture and share the essence of our church community. From stunning visuals to engaging content, they bring the spirit of our services to life online and beyond. Join us in celebrating the talent and dedication of our media team as they illuminate our faith journey through the power of digital storytelling...Among other things, the media team has the responsibility to ensure that HOM Chapel's messages reach a broader audience beyond our doors and our regular service times. They are responsible for creating, curating, and distributing content across various media platforms (social media, podcasts, live streams, websites, etc.)... some of their duties include Videography, Video editing, Live streaming, Projection, Photography and a lot more",
+    gallery: [
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054655/homchapel/DSC_0074_efvy8i.webp",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054650/homchapel/DSC_0332_vnfdbr.webp",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054652/homchapel/DSC_1136_yzjead.webp",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265023/homchapel/media-bg_zxnco5.jpg",
+    ],
+  },
   {
     name: "Choir",
     description:
