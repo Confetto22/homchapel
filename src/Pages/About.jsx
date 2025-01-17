@@ -35,7 +35,7 @@ const About = () => {
             // duration: 4,
           }}
           viewport={{ once: true }}
-          src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1723232272/homchapel/DSC_5738_art3si_h7o14k_1_gjdwd2.webp"
+          src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054656/homchapel/DSC_0651_vl9kpf.webp"
           alt="welcome picture"
           className="w-full md:w-[45%]"
         />
@@ -75,7 +75,7 @@ const About = () => {
           </p>
         </motion.div>
       </div>
-      <section className="our_story bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1722545812/homchapel/IMG_4142_esf52q.jpg')] min-h-[60vh] bg-center bg-cover md:min-h-[80vh]">
+      <section className="our_story bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054651/homchapel/DSC_0158_rqd3kl.webp')] min-h-[60vh] bg-center bg-cover md:min-h-[80vh]">
         <div className="story_cover bg-[#000000be] w-full h-full flex items-center justify-center min-h-[60vh] py-12 md:min-h-[80vh]">
           <div className="history_text flex flex-col items-center justify-center gap-8 py-8 px-4  text-center md:px-0 md:max-w-[85%]">
             <h2 className="text-3xl font-bold border-b border-inherit uppercase text-gray-100">

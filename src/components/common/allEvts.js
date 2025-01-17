@@ -1,15 +1,15 @@
 export const allEvts = [
   {
-    name: "31st Warnight & Prayer",
-    time: "08:30PM",
+    name: "Fresh Fire Revival",
+    time: "06:00PM",
     location: "Mystery Temple",
-    day: "31",
-    month: "december",
-    year: "2024",
+    day: "29",
+    month: "january",
+    year: "2025",
     flyer:
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1734537148/homchapel/31st_night_feyf9g.jpg",
-    brief:
-      "Another 31st Warnight is here again. Join us embark on this powerful program as we war ahead of the new year & experience the glory of God.",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737076077/homchapel/fresh-fire-revival_adylzm.jpg",
+    // brief:
+    //   "Another 31st Warnight is here again. Join us embark on this powerful program as we war ahead of the new year & experience the glory of God.",
   },
   // {
   //     name: 'I Cannot Be Covered',

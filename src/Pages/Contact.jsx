@@ -53,7 +53,7 @@ const Contact = () => {
         currentPage={"Contact"}
         refLink={"/"}
         bgPic={
-          "bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1726050967/homchapel/IMG-20240911-WA0005_ot0c2d.webp')] bg-top"
+          "bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1726050967/homchapel/IMG-20240911-WA0005_ot0c2d.webp')] bg-center"
         }
         pageIntro={
           "We appreciate you for visiting us virtually, don’t hold back on anything you want to share with us or ask. Kindly call us or even send us a direct message using the form below and we will be glad to get in touch."

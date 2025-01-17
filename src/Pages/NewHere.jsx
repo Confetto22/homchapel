@@ -39,7 +39,7 @@ const services = [
     day: "Sunday",
     time: "07:00AM - 10:45AM",
     desc: "Restoration Hour Service",
-    img: "https://res.cloudinary.com/dv9aqxptd/image/upload/v1728646407/homchapel/restorationnew_if0ohx.webp",
+    img: "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737076672/homchapel/new-restoration_twiisc.webp",
     location: "Mystery Temple",
     locationLink:
       "https://www.google.com/maps/place/House+of+Mystery+Chapel+International/@5.5535899,-0.3183499,16z/data=!4m6!3m5!1s0xfdfbdf3d2cd56d5:0x288d247b8da7f24b!8m2!3d5.5538031!4d-0.3182464!16s%2Fg%2F11vj4r9b3b?entry=ttu",
@@ -94,7 +94,7 @@ const NewHere = () => {
         currentPage={"New Here"}
         refLink={"/"}
         bgPic={
-          "bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1724631364/homchapel/HOM2_rgb8rh.webp')]"
+          "bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054656/homchapel/DSC_0853_z9hg0z.webp')]"
         }
         pageIntro={
           "Welcome to our church! We're thrilled to have you, feel right at home. Our community is a place of warmth, love, and support, where everyone is valued and welcomed. Whether you're exploring faith for the first time or looking for a new church family, we are excited to have you join us on this journey. In this section, you'll find information about our church. We encourage you to connect with us and ask questions. We can't wait to meet you and walk alongside you in your faith journey!"
@@ -236,7 +236,7 @@ const NewHere = () => {
             // duration: 4,
           }}
           viewport={{ once: true }}
-          src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1725888697/homchapel/DSC_7648_xsppia.webp"
+          src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054656/homchapel/DSC_0853_z9hg0z.webp"
           alt="what to expect"
           className="w-full md:w-3/6 lg:w-[40%] md:aspect-[9/8] object-cover"
         />

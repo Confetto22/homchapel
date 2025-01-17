@@ -59,7 +59,7 @@ const departmentList = [
       "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054655/homchapel/DSC_0074_efvy8i.webp",
       "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054650/homchapel/DSC_0332_vnfdbr.webp",
       "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054652/homchapel/DSC_1136_yzjead.webp",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265023/homchapel/media-bg_zxnco5.jpg",
+      // "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265023/homchapel/media-bg_zxnco5.jpg",
     ],
   },
   {

@@ -19,7 +19,7 @@ const GetConnected = () => {
         className="w-full lg:w-[40%] aspect-[9/8] object-cover "
       >
         <img
-          src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1733016008/homchapel/DSC_4174_olquhm.webp"
+          src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054653/homchapel/DSC_0394_uoverd.webp"
           alt="get connected"
           className="w-full h-full object-cover"
         />

@@ -34,7 +34,7 @@ const PrayerWall = () => {
         currentPage={"Prayer Wall"}
         refLink={"/"}
         bgPic={
-          "bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1725025234/homchapel/retreat1_hxyscu.jpg')] bg-top"
+          "bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1737075843/homchapel/DSC_0301_kupbpf_c_crop_w_5333_h_3000_ar_16_9_b4ywgc.webp')] bg-top"
         }
         pageIntro={
           "Welcome to our Prayer Wall! Here, you can share your prayer requests and join our community in lifting each other up in faith. "
