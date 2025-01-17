@@ -39,7 +39,7 @@ export const HomBlog = [
       "The raw undiluted power of God through Dr.Cloudio heals a woman blind from birth.",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis quasi necessitatibus sit aliquam minima nisi accusamus cumque doloribus maiores sint, asperiores voluptates quia suscipit. Fugit repudiandae nobis nesciunt maiores.",
     image_url:
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1723215473/homchapel/IMG_4176_wasdqf_egqbyb.webp",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054648/homchapel/DSC_0195_d2mvbj.webp",
     category: "news",
   },
   // { id:5,
