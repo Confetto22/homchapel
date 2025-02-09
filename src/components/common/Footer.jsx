@@ -4,6 +4,7 @@ import { LiaTelegram } from "react-icons/lia";
 
 import "../../styles/Footer.css";
 import Form from "./Form";
+import { churchGoogleMaps } from "../../Pages/Events";
 
 const footerSocials = [
   {
@@ -107,7 +108,8 @@ const Footer = () => {
             </p>
             <div className="text-[#a3a2a2] text-[1rem] flex flex-col gap-1">
               <Link
-                to={"#"}
+                to={churchGoogleMaps}
+                target="_blank"
                 className="hover:text-[var(--second-color)] ease-in-out duration-200 hover:underline underline-offset-2"
               >
                 Tatop Weija, Accra
@@ -115,7 +117,7 @@ const Footer = () => {
               <p>
                 Phone :{" "}
                 <Link
-                  to={"#"}
+                  to={"tel:233593552731"}
                   className="hover:text-[var(--second-color)] ease-in-out duration-200 hover:underline underline-offset-2"
                 >
                   0593552731

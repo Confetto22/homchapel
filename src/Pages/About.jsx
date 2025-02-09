@@ -179,7 +179,7 @@ const About = () => {
             // duration: 4,
           }}
           viewport={{ once: true }}
-          src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1722537864/homchapel/DADDYEXCLUSIVE1_cljy4f.jpg"
+          src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1722537865/homchapel/DADDYEXCLUSIVE2_otwhmy.jpg"
           alt="Apostle Dr. Cloudio"
           className="w-full h-full object-cover object-top aspect-[9/10] md:w-[45%]"
         />

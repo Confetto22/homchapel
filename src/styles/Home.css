@@ -1,78 +1,76 @@
-.homepage{
-    overflow-x: hidden;
-    font-family: var(--second-font);
-  
+.homepage {
+  overflow-x: hidden;
+  font-family: var(--second-font);
 }
 
 .hero {
-    position: relative;
-    font-family: var(--second-font);
-    overflow-x: hidden;
+  position: relative;
+  font-family: var(--second-font);
+  overflow-x: hidden;
 }
-.sermon_video{
-/* background-image: url('https://img.freepik.com/free-vector/white-gray-background-with-diagonal-lines-pattern_1017-25100.jpg?t=st=1723815736~exp=1723819336~hmac=2bd54764daed69414563376837bbc0a4b5f92343f4dbd4ee86f65e69af24b2a2&w=740'); */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.sermon_video {
+  /* background-image: url('https://img.freepik.com/free-vector/white-gray-background-with-diagonal-lines-pattern_1017-25100.jpg?t=st=1723815736~exp=1723819336~hmac=2bd54764daed69414563376837bbc0a4b5f92343f4dbd4ee86f65e69af24b2a2&w=740'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .videoBg {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    object-position: center;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: center;
 }
 
 .hero_cover {
-    position: absolute;
-    top: 0;
-    background-color: #0000009c;
-    width: 100%;
-    height: 100%;
-    padding: 2rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: .4rem;
+  position: absolute;
+  top: 0;
+  background-color: #0000009c;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
 }
 
 /* .get_connected{
     background-image: url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1728560541/homchapel/grey_hexagons_on_black_background_xfxlyc.webp');
 } */
 
-.filterBtns button{
-    background-color:var(--main-color);
-    padding: .8rem;
-    border-radius: .125rem;
-    color: #fff;
-    font-weight: 500;
-    transition: .2s ease-in-out;
+.filterBtns button {
+  background-color: var(--main-color);
+  padding: 0.8rem;
+  border-radius: 0.125rem;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
 }
-.currentFilterBtn, .filterBtns button:hover{
-    box-shadow: inset 0px 1px 9px 3px rgba(0, 0, 0, 0.801);
-    /* background-color: var(--second-color); */
+.currentFilterBtn,
+.filterBtns button:hover {
+  box-shadow: inset 0px 1px 9px 3px rgba(0, 0, 0, 0.801);
+  /* background-color: var(--second-color); */
 }
 
 .dept_info .swiper {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
-.dept_heading span{
-    font-family: var(--main-font);
+.dept_heading span {
+  font-family: var(--main-font);
 }
-@media only screen and (min-width:768px){
-    .dept_info .swiper {
+@media only screen and (min-width: 768px) {
+  .dept_info .swiper {
     width: 50%;
-    
+  }
 }
-}
-@media only screen and (min-width:900px){
-    .dept_info .swiper {
+@media only screen and (min-width: 900px) {
+  .dept_info .swiper {
     width: 40%;
-    
-}
+  }
 }
 
 /* .dept_info .swiper-slide {
@@ -92,127 +90,117 @@
     object-fit: cover;
 } */
 
-
-.loc_buttons button{
-    padding: .8rem 2rem;
-    border-radius: 6rem;
-    text-transform: capitalize;
-    font-size: .9rem;
-    font-weight: 500;
-    font-family: var(--second-font);
+.loc_buttons button {
+  padding: 0.8rem 2rem;
+  border-radius: 6rem;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: var(--second-font);
 }
 
 .join_church {
-    font-family: var(--main-font);
-    overflow-x: hidden;
+  font-family: var(--main-font);
+  overflow-x: hidden;
 }
 
 .joinchurch_head {
-
-    background-image: url('https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-size: cover;
-    background-position: center;
-    
+  background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
 }
 
 .joinchurch_cover {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    padding: 3rem 2rem;
-    justify-content: space-between;
-    background-color: #000000a4;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 3rem 2rem;
+  justify-content: space-between;
+  background-color: #000000a4;
+  width: 100%;
+  height: 100%;
 }
 
 .joinchurch_images {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.4rem;
-    padding: 0 1rem;
-
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.4rem;
+  padding: 0 1rem;
 }
 
 .column_align {
-    width: 50%;
+  width: 50%;
 
-    padding-right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: .7rem;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.7rem;
 }
 
 .column_align img:nth-child(1) {
-    height: 150px;
+  height: 150px;
 }
 
 .column_align img:nth-child(2) {
-    width: 70%;
+  width: 70%;
 }
 
 .singleImage {
-    width: 47%;
-    height: 70%;
-    object-fit: cover;
+  width: 47%;
+  height: 70%;
+  object-fit: cover;
 }
 
 .joinchurch_images img {
-    object-fit: cover;
-    border: 9px solid #fff;
+  object-fit: cover;
+  border: 9px solid #fff;
 }
 
+@media only screen and (min-width: 768px) {
+  .joinchurch_cover {
+    flex-direction: row;
+    align-items: center;
+  }
 
-
-@media only screen and (min-width:768px) {
-    .joinchurch_cover {
-        flex-direction: row;
-        align-items: center;
-    }
-
-   
-
-    .singleImage {
-        width: 50%;
-        height: 100%;
-    }
+  .singleImage {
+    width: 50%;
+    height: 100%;
+  }
 }
 
 .daily_verse {
-    background-image: url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1723215474/homchapel/alexandre-pellaes-6vAjp0pscX0-unsplash_w1coyc_yacked_h8zk4g.webp');
-    background-position: center;
-    background-size: cover;
-    font-family: var(--main-font);
+  background-image: url("https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054656/homchapel/DSC_0853_z9hg0z.webp");
+  background-position: center;
+  background-size: cover;
+  font-family: var(--main-font);
 }
 
 .dailyverse_cover {
-    background-color: rgba(0, 0, 0, 0.664);
-    width: 100%;
-    height: 100%;
-
+  background-color: rgba(0, 0, 0, 0.664);
+  width: 100%;
+  height: 100%;
 }
 
 #bibleverse {
-    color: var(--second-color);
+  color: var(--second-color);
 }
 .testimonials .swiper {
-    width: 90%;
-    /* max-width: 700px; */
-    /* height: 100%; */
+  width: 90%;
+  /* max-width: 700px; */
+  /* height: 100%; */
 }
-@media only screen and (min-width:768px){
-    .testimonials .swiper{
-        width: 70%;
-    }
+@media only screen and (min-width: 768px) {
+  .testimonials .swiper {
+    width: 70%;
+  }
 }
 
-
-.prayer_request{
-    font-family: var(--main-font);
+.prayer_request {
+  font-family: var(--main-font);
 }
