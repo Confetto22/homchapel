@@ -4,10 +4,10 @@ export const HomBlog = [
     creator: "HOM Chapel",
     pubDate: "2024-07-19 15:05:43",
     title:
-      "The raw undiluted power of God through Dr.Cloudio heals a woman blind from birth.",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis quasi necessitatibus sit aliquam minima nisi accusamus cumque doloribus maiores sint, asperiores voluptates quia suscipit. Fugit repudiandae nobis nesciunt maiores.",
+      "The Fresh Fire Revival Programme comes to a close after 3 nights of supernatural encounter.",
+    desc: "The Fresh Fire Revival which was held from the 29th-31st of January, 2025 finally comes to a climax. Topping it off with an oil direction instructed by the Lord through Dr. Cloudio.",
     image_url:
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1723215473/homchapel/IMG_4176_wasdqf_egqbyb.webp",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054651/homchapel/DSC_0158_rqd3kl.webp",
     category: "news",
   },
   {

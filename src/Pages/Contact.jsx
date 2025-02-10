@@ -111,7 +111,7 @@ const Contact = () => {
           inputStyle={"dark:text-white text-black"}
           extraInput={
             <input
-              type="text"
+              type="email"
               required
               placeholder="E-mail"
               name="sender_email"
