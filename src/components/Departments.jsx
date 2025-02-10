@@ -67,8 +67,10 @@ const departmentList = [
     description:
       "Experience the divine melodies of our choir as they fill the air with songs of praise and worship. Let their harmonies transport you to a place of spiritual connection and joy. Dive into the heavenly tunes of our choir, where voices blend in harmony to uplift spirits and hearts... Join us in celebrating the beauty of music and faith together!",
     gallery: [
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1739227095/homchapel/DSC_0781_cl2nlb.webp",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1739227042/homchapel/DSC_0779_zneqcr.webp",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1739227020/homchapel/DSC_0778_oizpt0.webp",
       "https://res.cloudinary.com/dv9aqxptd/image/upload/v1717265213/homchapel/choir-bg_ixafi4.jpg",
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1728262808/homchapel/IMG-20241006-WA0056_towc2e.webp",
       "https://res.cloudinary.com/dv9aqxptd/image/upload/v1728262807/homchapel/IMG-20241006-WA0059_gwlpsj.webp",
     ],
   },

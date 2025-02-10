@@ -29,7 +29,7 @@ const SermonVid = () => {
       >
         <div className="vidMask_cover bg-[#000000] w-full h-full  ">
           <img
-            src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1728523223/homchapel/DSC_7605_lqwogj.webp"
+            src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1739227932/homchapel/DSC_0824_h6nejc.webp"
             alt=""
             className={`h-full w-full ease-in-out duration-300 ${
               vidHovered ? "opacity-60" : ""
