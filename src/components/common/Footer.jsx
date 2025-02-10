@@ -174,7 +174,8 @@ const Footer = () => {
         <p className="copyright text-center mt-5 text-[#a3a2a2] capitalize">
           developed by{" "}
           <Link
-            to={"#"}
+            to={"https://github.com/Confetto22"}
+            target="_blank"
             className="text-white underline font-semibold text-[1.1rem]"
           >
             Confetto&copy;
