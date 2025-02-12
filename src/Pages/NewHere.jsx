@@ -74,7 +74,7 @@ const services = [
       "https://www.google.com/maps/place/House+of+Mystery+Chapel+International/@5.5535899,-0.3183499,16z/data=!4m6!3m5!1s0xfdfbdf3d2cd56d5:0x288d247b8da7f24b!8m2!3d5.5538031!4d-0.3182464!16s%2Fg%2F11vj4r9b3b?entry=ttu",
   },
   {
-    name: "You can Win",
+    name: "Prayer & Prophecy",
     day: "Friday",
     time: "06:00PM - 08:00PM",
     desc: "Restoration Hour Service",

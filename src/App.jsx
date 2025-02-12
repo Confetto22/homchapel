@@ -101,6 +101,7 @@ function App() {
             {/* <Donate /> */}
             <button
               onClick={handleThemeSwitch}
+              aria-label="dark mode"
               className={`${
                 theme === "dark"
                   ? "bg-white text-[#1f1f1f]"

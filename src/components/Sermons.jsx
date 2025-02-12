@@ -54,7 +54,7 @@ const Sermons = () => {
             <iframe
               key={sermon.title}
               title={sermon.title}
-              allowTransparency="true"
+              allowtransparency="true"
               height="150"
               width="100%"
               className="border: none; min-width: min(100%, 430px);height:150px;"

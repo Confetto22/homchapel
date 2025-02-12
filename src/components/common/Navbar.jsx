@@ -109,7 +109,11 @@ const Navbar = () => {
                 key={singleMenuItem.refName}
                 to={singleMenuItem.ref}
                 onClick={() => setMenuOpen(false)}
-                className="menuListItem flex flex-row items-center justify-center gap-[3px] hover:bg-stone-600 w-full py-2"
+                className={`menuListItem flex flex-row items-center justify-center gap-[3px] border-b border-b-[#7a7a7a77] hover:bg-stone-600 w-full py-2 ${
+                  singleMenuItem.ref === pageLocation.pathname
+                    ? "text-[var(--second-color)] bg-[#57534E]"
+                    : ""
+                }`}
               >
                 {singleMenuItem.refName}
                 <HiArrowLongRight />
