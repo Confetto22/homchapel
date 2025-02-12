@@ -14,7 +14,7 @@ const HeroCard = () => {
         className="videoBg object-center object-cover h-full w-full"
       ></video>
       <div className="hero_cover bg-[#0000007a] h-full w-full flex flex-col items-center justify-center text-center p-3 gap-2">
-        <SecHeading
+        {/* <SecHeading
           divStyle={"flex flex-col items-center"}
           subheading={"House Of Mystery Chapel International"}
           mainheading={"welcome HOM"}
@@ -24,7 +24,7 @@ const HeroCard = () => {
           mainStyle={
             "text-white  text-[2rem] md:text-[3.5rem] max-w-[400px] md:max-w-[700px]"
           }
-        />
+        /> */}
         <Link
           to={"/new-here"}
           aria-label="new visitors"
