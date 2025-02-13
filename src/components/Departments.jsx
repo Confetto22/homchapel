@@ -123,24 +123,13 @@ const Departments = () => {
                 >
                   {deptInfo.gallery.map((singleImage) => (
                     <SwiperSlide key={singleImage} className="">
-                      <motion.div
-                        initial={{ x: -40, opacity: 0 }}
-                        whileInView={{ x: 0, opacity: 1 }}
-                        transition={{
-                          delay: 0.2,
-                          x: { type: "spring", duration: 1, stiffness: 40 },
-                          opacity: { duration: 2 },
-                          ease: "easeInOut",
-                        }}
-                        viewport={{ once: true }}
-                        className="w-full h-full aspect-square"
-                      >
+                      <div className="w-full h-full aspect-square">
                         <img
                           src={singleImage}
                           alt="church department"
                           className="w-full h-full object-contain"
                         />
-                      </motion.div>
+                      </div>
                     </SwiperSlide>
                   ))}
                 </Swiper>

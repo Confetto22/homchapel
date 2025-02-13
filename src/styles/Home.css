@@ -8,8 +8,8 @@
   font-family: var(--second-font);
   overflow-x: hidden;
 }
-.sermon_video {
-  /* background-image: url('https://img.freepik.com/free-vector/white-gray-background-with-diagonal-lines-pattern_1017-25100.jpg?t=st=1723815736~exp=1723819336~hmac=2bd54764daed69414563376837bbc0a4b5f92343f4dbd4ee86f65e69af24b2a2&w=740'); */
+/* .sermon_video {
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   height: 100%;
   width: 100%;
   object-position: center;
-}
+} */
 
 .hero_cover {
   position: absolute;

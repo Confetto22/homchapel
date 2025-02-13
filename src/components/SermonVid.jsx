@@ -13,16 +13,7 @@ const SermonVid = () => {
 
   return (
     <section className="sermon_video p-9 px-4 max-w-[500px] md:max-w-full mx-auto flex flex-col items-start md:flex-row md:items-center md:gap-8 md:px-16 py-12 min-h-[60vh]">
-      <motion.div
-        initial={{ x: -70, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{
-          delay: 0.2,
-          x: { type: "spring", duration: 1, stiffness: 40 },
-          opacity: { duration: 2 },
-          ease: "easeInOut",
-        }}
-        viewport={{ once: true }}
+      <div
         className="video_mask  text-[4rem] relative grayscale-[10%]  object-cover md:w-[50%]  "
         onMouseOver={handleHover}
         onMouseOut={() => setVidHovered(false)}
@@ -47,7 +38,7 @@ const SermonVid = () => {
             />
           </Link>
         </div>
-      </motion.div>
+      </div>
       {/* <VidModal isPlaying={playBtClick} /> */}
 
       <motion.div

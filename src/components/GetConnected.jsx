@@ -5,25 +5,13 @@ import { motion } from "framer-motion";
 const GetConnected = () => {
   return (
     <section className="get_connected px-8 py-12 lg:py-24 flex flex-col gap-4 max-w-[700px] lg:max-w-full mx-auto lg:flex-row lg:items-center lg:justify-center lg:gap-9 ">
-      <motion.div
-        initial={{ x: -70, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{
-          delay: 0.2,
-          x: { type: "spring", duration: 1, stiffness: 40 },
-          opacity: { duration: 2 },
-          ease: "easeInOut",
-          // duration: 4,
-        }}
-        viewport={{ once: true }}
-        className="w-full lg:w-[40%] aspect-[9/8] object-cover "
-      >
+      <div className="w-full lg:w-[40%] aspect-[9/8] object-cover ">
         <img
           src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1737054653/homchapel/DSC_0394_uoverd.webp"
           alt="get connected"
           className="w-full h-full object-cover"
         />
-      </motion.div>
+      </div>
       <motion.div
         initial={{ x: 70, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}

@@ -91,17 +91,7 @@ const Home = () => {
         <div
           className={`singleBieleif flex flex-col  gap-4 md:gap-16 md:justify-center md:flex-row-reverse  md:text-right items-center`}
         >
-          <motion.img
-            initial={{ x: 70, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", duration: 1, stiffness: 40 },
-              opacity: { duration: 2 },
-              ease: "easeInOut",
-              // duration: 4,
-            }}
-            viewport={{ once: true }}
+          <img
             src="https://res.cloudinary.com/dv9aqxptd/image/upload/v1723215474/homchapel/IMG_8310_wux2to_fgpc61.webp"
             alt="beliefs"
             className="w-full md:w-[40%] aspect-[9/8] object-cover"
