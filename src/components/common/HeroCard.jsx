@@ -6,7 +6,7 @@ const HeroCard = () => {
     // <section className="hero bg-[url('https://res.cloudinary.com/dv9aqxptd/image/upload/v1723215475/homchapel/pexels-jibarofoto-2014775_bles2s_gsaw33_fq0oea.webp')] h-[70vh] md:h-[100vh] bg-cover bg-center">
     <section className="hero  h-[80vh] md:h-[89vh] ">
       <video
-        src="https://res.cloudinary.com/dv9aqxptd/video/upload/v1739465261/homchapel/FOR_WEB_qn7v3v.webm"
+        src="https://res.cloudinary.com/dv9aqxptd/video/upload/v1739787321/homchapel/MONTAGE_1_hyqco6.mp4"
         autoPlay
         muted
         loop
