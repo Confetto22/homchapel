@@ -48,7 +48,8 @@ const Events = () => {
       </p>
       <div className="evts_prelude  p-6 flex flex-col gap-2 items-center text-center dark:text-[var(--dark-white)]">
         <p className="prelude_date font-bold uppercase text-[1.5rem] md:text-[1.8rem]">
-          {nearestEvt.day} {nearestEvt.month}, {nearestEvt.year}
+          {/* {nearestEvt.day} {nearestEvt.month}, {nearestEvt.year} */}
+          17 & 18 {nearestEvt.month}, {nearestEvt.year}
         </p>
         <p className="prelude_text max-w-[800px] text-sm leading-6 md:text-[1.2rem] font-semibold">
           {nearestEvt.brief} Mazal Tov!🔥 <br />
@@ -105,7 +106,7 @@ const Events = () => {
               {/* <p className="evt_desc text-sm">{evt.brief}</p> */}
             </div>
             <div className="evt_topdate absolute top-0 bg-[#d89a30d3] px-5 py-1 text-white font-semibold text-[.9rem] md:text-[1rem] rounded-tl-md capitalize flex flex-col items-center justify-center">
-              <p>{evt.day} </p>
+              <p>17 - 18 </p>
               <p>{evt.month.slice(0, 3)}</p>
             </div>
           </div>
