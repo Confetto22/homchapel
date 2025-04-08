@@ -1,15 +1,15 @@
 export const allEvts = [
   {
-    name: "Fresh Fire Revival",
+    name: "grace without limits",
     time: "06:00PM",
     location: "Mystery Temple",
-    day: "29",
-    month: "january",
+    day: "17 ",
+    month: "april",
     year: "2025",
     flyer:
-      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1737076077/homchapel/fresh-fire-revival_adylzm.jpg",
-    // brief:
-    //   "Another 31st Warnight is here again. Join us embark on this powerful program as we war ahead of the new year & experience the glory of God.",
+      "https://res.cloudinary.com/dv9aqxptd/image/upload/v1744149434/homchapel/IMG_0481_ysii2q.jpg",
+    brief:
+      "'For grace is given not because we have done good works, but in order that we may be able to do them.' Join us on the 17th at 6PM & on the 18th at 8AM at the Mystery Temple as we explore the depths of God's grace with this power-packed programme dubbed 'GRACE WITHOUT LIMITS'... Come have a wonderful time and experience the hand of God like never before.",
   },
   // {
   //     name: 'I Cannot Be Covered',
